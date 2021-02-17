@@ -14,3 +14,10 @@ There are 2 types of quantization techniques : Post training quantization and qu
   ![Weight Distribution](https://github.com/Jash-2000/TinyML/blob/main/Weights.JPG)
   
   * **Quantization aware training** effectively emulates the inference-time quantization behavior by creating a model the downstream tools will use to produce the actual quantized models. The quantized models, naturally, will be using lower precision. And so knowing that we'll be using lower precision and introducing that into the training pipeline while its training will effectively allow the network to become resilient. Simply put, this type of trainig learns the pattern of quantization and is already aware that it will be loosing some information, thus gets trained accordingly.
+
+---
+
+## Main differences between tensorflow's different ecosystems
+
+![Hardware aspect](https://github.com/Jash-2000/TinyML/blob/main/Hardware.JPG)
+![Software aspect](https://github.com/Jash-2000/TinyML/blob/main/Software.JPG)
