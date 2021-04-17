@@ -1,14 +1,18 @@
 # TinyML
 
-The first and foremost folder to be accessed is the src folder. All the source files and their description is present in **src** folder and it's Readme.
-The details of other folders is also present in the src folder itself.
-
 ![ML Pipeline](https://courses.edx.org/assets/courseware/v1/37dbe63b3b910ce9ed00658490821ebd/asset-v1:HarvardX+TinyML2+3T2020+type@asset+block/3-2-5-1.png)
 
 Course Resources of the 3 course specialization by Harvard University on TinyML: its applications and deployment.
 The Three Courses are : [Fundamentals of TinyML](https://courses.edx.org/dashboard/programs/f7868191-7d7f-4292-b117-64549f1f483a/), [Applications of TinyML](https://courses.edx.org/dashboard/programs/f7868191-7d7f-4292-b117-64549f1f483a/), [Deploying TinyML](https://courses.edx.org/dashboard/programs/f7868191-7d7f-4292-b117-64549f1f483a/), led by **[Vijay Janapa Reddi](https://scholar.harvard.edu/vijay-janapa-reddi/home)**
 
 The scripts majorly focus on Acoustic, Motion and Image based sensors, with a focus on Firmware as well as Neural network based aspects.  I have also experimented a lot with Pruning and Quantization with Tensorflow Lite.
+
+---
+
+## Instruction of Use
+
+ * The first and foremost folder to be accessed is the src folder. All the source files and their description is present in **src** folder and it's Readme. The details of other folders is also present in the src folder itself.
+ * The folder named **basic** contains basic scripts involving CNN and RNN. They do not contain anything regarding TinyML.
 
 ---
 
